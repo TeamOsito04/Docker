@@ -1,5 +1,6 @@
 const request = require("supertest");
-const app = require("../server.mjs");
+const app = require("../server.cjs");
+
 
 describe("GET /", () => {
   it("should respond with the index.html file", async () => {
